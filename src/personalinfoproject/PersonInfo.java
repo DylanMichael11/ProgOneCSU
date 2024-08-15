@@ -7,10 +7,10 @@ public class PersonInfo {
     public static void main(String[] args) {
     	// public static void main needed for each java program
         // Declare and initialize variables for personal information
-        String firstName = "John";
-        String lastName = "Doe";
-        String streetAddress = "123 Main St";
-        String city = "Anytown";
+        String firstName = "Naruto";
+        String lastName = "Uzimaki";
+        String streetAddress = "321 ninja st";
+        String city = "leaf";
         String zipCode = "12345";
 
         /*
