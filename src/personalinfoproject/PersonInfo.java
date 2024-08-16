@@ -1,7 +1,8 @@
 package personalinfoproject;
 /**
  * This class represents a simple application to print personal information.
- * It demonstrates basic variable declaration and console output in Java.
+ * It demonstrates basic variable declaration and console output in Java.It first will declare and call variable.
+ * then print them each in the console on new lines using \n.
  */
 public class PersonInfo {
     public static void main(String[] args) {
@@ -17,10 +18,12 @@ public class PersonInfo {
          * The following block of code prints each piece
          * of personal information on a separate line.
          */
-        System.out.println(firstName);
-        System.out.println(lastName);
-        System.out.println(streetAddress);
-        System.out.println(city);
-        System.out.println(zipCode);
+        System.out.print(firstName + "\n");
+        System.out.print(lastName + "\n");
+        System.out.print(streetAddress + "\n");
+        System.out.print(city + "\n");
+        System.out.print(zipCode + "\n");
+        // using \n instead of  println just for practice
+       
     }
 }
